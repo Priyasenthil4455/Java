@@ -24,7 +24,7 @@ public class Solution {
         for(int i=n-1;i>=0;i--)
         {
             final1[i] = final1[i]*suf;
-            suf = suf*a[i];
+            suf = suf-a[i];
         }
         for(int i=0;i<n;i++)
         {
